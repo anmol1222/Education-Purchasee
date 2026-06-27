@@ -13,7 +13,7 @@ web=Flask(__name__)
 @web.route('/')
 
 def home():
-    return render_template('Edu_purchase_index.html')
+    return render_template('index.html')
 @web.route('/predict',methods=['POST'])
 
 def predict():
